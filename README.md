@@ -25,3 +25,9 @@ I knew some commands and I had used aliases earlier, but I got more new knowlege
 I had learnt more new commands and also I had got basic experience with shell scripts
 
 I surely will use a lot of commands in my tasks and also I will apply shell scripts and I want get more info about these powerfull features
+
+There are screenshots below
+[**quiz_01**](https://github.com/ViacheslavIT/kottans-backend/blob/master/task_unix_shell/quiz_01.png)
+[**quiz_02**](https://github.com/ViacheslavIT/kottans-backend/blob/master/task_unix_shell/quiz_02.png)
+[**quiz_03**](https://github.com/ViacheslavIT/kottans-backend/blob/master/task_unix_shell/quiz_03.png)
+[**quiz_04**](https://github.com/ViacheslavIT/kottans-backend/blob/master/task_unix_shell/quiz_04.png)
