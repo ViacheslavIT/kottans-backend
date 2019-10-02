@@ -15,3 +15,13 @@ I hope, I will finish all tasks in time )))
 Best regards!
 
 **P.S.** Sorry, but I haven't any cats)))
+
+---
+## Unix Shell ##
+It was very interesting - to study [**Unix Shell**](https://github.com/kottans/backend/blob/master/tasks/unix-shell.md).
+
+I knew some commands and I had used aliases earlier, but I got more new knowleges after this cours.
+
+I had learnt more new commands and also I had got basic experience with shell scripts
+
+I surely will use a lot of commands in my tasks and also I will apply shell scripts and I want get more info about these powerfull features
