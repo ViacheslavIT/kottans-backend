@@ -38,7 +38,7 @@ There are screenshots below
 
 ---
 ## Git Collaboration ##
-I hade studied a little bit interesting course - [**Udacity Git Collaboration Course**](https://classroom.udacity.com/courses/ud456)
+I had studied a little bit interesting course - [**Udacity Git Collaboration Course**](https://classroom.udacity.com/courses/ud456)
 and made screenshot after finished.
 
 I repeated some old knowledges and got some new information about collaboration.
@@ -48,3 +48,15 @@ And also I understood why we need to set up working with several repositories.
 This new knowledges will help my in my work in future.
 
 ![**finis_git_collaboration**](https://github.com/ViacheslavIT/kottans-backend/blob/master/task_git_collaboration/git_collaboration_finish.png "finis_git_collaboration")
+
+---
+## NodeJS Basics 1 ##
+It was a little bit hard and very interesting.
+
+I learnt a lot new features. I will be use very often array's methods and other powerful practice of JS
+
+I hope next parts and next tasks will be like those..
+
+![**learnyounode**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_01.png "learnyounode")
+![**functional-javascript-workshop**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_02.png "functional-javascript-workshop")
+![**stream adventure**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_03.png "stream adventure")
