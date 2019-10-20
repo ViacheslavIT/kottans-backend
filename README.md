@@ -60,3 +60,9 @@ I hope next parts and next tasks will be like those..
 ![**learnyounode**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_01.png "learnyounode")
 ![**functional-javascript-workshop**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_02.png "functional-javascript-workshop")
 ![**stream adventure**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_03.png "stream adventure")
+
+---
+## SQL Basics ##
+It was simple)))
+
+![**select.sql**](https://github.com/ViacheslavIT/kottans-backend/blob/master/sql_basics/select.sql "select.sql")
