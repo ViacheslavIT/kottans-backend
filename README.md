@@ -65,4 +65,4 @@ I hope next parts and next tasks will be like those..
 ## SQL Basics ##
 It was simple)))
 
-![**select.sql**](https://github.com/ViacheslavIT/kottans-backend/blob/master/sql_basics/select.sql "select.sql")
+[**select.sql**](https://github.com/ViacheslavIT/kottans-backend/blob/master/sql_basics/select.sql "select.sql")
