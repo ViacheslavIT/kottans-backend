@@ -62,6 +62,32 @@ I hope next parts and next tasks will be like those..
 ![**stream adventure**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_03.png "stream adventure")
 
 ---
+## HTTP & HTTPS ##
+It's very simple but very interesting part of course.
+
+Comics and articles are very good for understanding basics but important things about how internet works
+
+Answers:
+
+1.
+An evil person can pretend a some www-resource. Your data can be intercept.
+Also your data or server data can be change. And some browsers can block
+www-resources if they not use https-protocol.
+
+2.
+When data was encrypted by public key, other persons or resources cann't decpryt
+this data with the same key. Encrypted data can decrypt person or resource who has
+another key - private, and also, he or she must use another algorithm for read
+encrypted data.
+
+3.
+- GET: search pet by name - this request don't change any information on server
+
+- POST: add new pet - this request create new item of pets
+
+- PUT(POST): change name of an existing pet; add new info about pet's health; assign a pet to a particular doctor in the clinic; register an appointment for a pet; - this requests change information for existing items
+
+---
 ## SQL Basics ##
 It was simple)))
 
