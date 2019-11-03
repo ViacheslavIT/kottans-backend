@@ -64,9 +64,30 @@ I hope next parts and next tasks will be like those..
 ---
 ## Memory Management ##
 Answers:
+```
+What's going to happen if program reaches maximum limit of stack ?
+```
+If program reaches maximum limit of stack (RLIMIT_STACK) we have a stack overflow
+and the program receives a Segmentation Fault.
 
+```
+What's going to happen if program requests a big (more then 128KB) memory allocation on heap ?
+```
+If program requests a big memory allocation on heap (big means more than MMAP_THRESHOLD,
+which has a default value 128kB), operating system will create such an anonymous mapping
+instead of using heap memory.
 
+```
+What's the difference between Text and Data memory segments ?
+```
+Data memory segments is a memory area with read/write access. This memory area is
+not anonymous. In this area are held the contents for static variables initialized
+in source code.
 
+Text memory segments is a memory area with read-only access. This memory area is read-only
+and stores all of your code in addition to tidbits like string literals. The text
+segment also maps your binary file in memory, but writes to this area earn your program
+ a Segmentation Fault.
 
 Output of `cat /proc/<PID>/maps`
 ```
@@ -106,6 +127,10 @@ Heap: 561dfee6c000-561dfee8d000
 Stack: 7ffd92794000-7ffd927b5000
 MMS: 7f8c52f93000-7f8c53380000
 ```
+
+This part of course has more new information for me. I got a performance about a managing
+of memory by operating system and living a program in memory. It was interesting.
+
 
 ---
 ## HTTP & HTTPS ##
