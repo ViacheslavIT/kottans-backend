@@ -62,6 +62,52 @@ I hope next parts and next tasks will be like those..
 ![**stream adventure**](https://github.com/ViacheslavIT/kottans-backend/blob/master/node_basic_1/node_03.png "stream adventure")
 
 ---
+## Memory Management ##
+Answers:
+
+
+
+
+Output of `cat /proc/<PID>/maps`
+```
+561dfddc4000-561dfdec8000 r-xp 00000000 08:05 8657332                    /bin/bash
+561dfe0c7000-561dfe0cb000 r--p 00103000 08:05 8657332                    /bin/bash
+561dfe0cb000-561dfe0d4000 rw-p 00107000 08:05 8657332                    /bin/bash
+561dfe0d4000-561dfe0de000 rw-p 00000000 00:00 0
+561dfee6c000-561dfee8d000 rw-p 00000000 00:00 0                          [heap]
+7f8c52b3c000-7f8c52f93000 r--p 00000000 08:05 7995513                    /usr/lib/locale/locale-archive
+7f8c52f93000-7f8c5317a000 r-xp 00000000 08:05 6296057                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f8c5317a000-7f8c5337a000 ---p 001e7000 08:05 6296057                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f8c5337a000-7f8c5337e000 r--p 001e7000 08:05 6296057                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f8c5337e000-7f8c53380000 rw-p 001eb000 08:05 6296057                    /lib/x86_64-linux-gnu/libc-2.27.so
+7f8c53380000-7f8c53384000 rw-p 00000000 00:00 0
+7f8c53384000-7f8c53387000 r-xp 00000000 08:05 6296084                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f8c53387000-7f8c53586000 ---p 00003000 08:05 6296084                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f8c53586000-7f8c53587000 r--p 00002000 08:05 6296084                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f8c53587000-7f8c53588000 rw-p 00003000 08:05 6296084                    /lib/x86_64-linux-gnu/libdl-2.27.so
+7f8c53588000-7f8c535ad000 r-xp 00000000 08:05 6292953                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f8c535ad000-7f8c537ad000 ---p 00025000 08:05 6292953                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f8c537ad000-7f8c537b1000 r--p 00025000 08:05 6292953                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f8c537b1000-7f8c537b2000 rw-p 00029000 08:05 6292953                    /lib/x86_64-linux-gnu/libtinfo.so.5.9
+7f8c537b2000-7f8c537d9000 r-xp 00000000 08:05 6296051                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f8c539aa000-7f8c539af000 rw-p 00000000 00:00 0
+7f8c539d2000-7f8c539d9000 r--s 00000000 08:05 8396172                    /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+7f8c539d9000-7f8c539da000 r--p 00027000 08:05 6296051                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f8c539da000-7f8c539db000 rw-p 00028000 08:05 6296051                    /lib/x86_64-linux-gnu/ld-2.27.so
+7f8c539db000-7f8c539dc000 rw-p 00000000 00:00 0
+7ffd92794000-7ffd927b5000 rw-p 00000000 00:00 0                          [stack]
+7ffd927f9000-7ffd927fc000 r--p 00000000 00:00 0                          [vvar]
+7ffd927fc000-7ffd927fe000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+```
+
+```
+Heap: 561dfee6c000-561dfee8d000
+Stack: 7ffd92794000-7ffd927b5000
+MMS: 7f8c52f93000-7f8c53380000
+```
+
+---
 ## HTTP & HTTPS ##
 It's very simple but very interesting part of course.
 
