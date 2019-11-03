@@ -131,7 +131,6 @@ MMS: 7f8c52f93000-7f8c53380000
 This part of course has more new information for me. I got a performance about a managing
 of memory by operating system and living a program in memory. It was interesting.
 
-
 ---
 ## HTTP & HTTPS ##
 It's very simple but very interesting part of course.
